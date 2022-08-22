@@ -1,0 +1,954 @@
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .service-three-area .single-service p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .service-three-area .single-service {
+    padding: 30px 20px;
+  }
+  .header-area .navbar-nav .nav-item {
+    margin: 0;
+  }
+  .header-area .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+  }
+  .hero-banner-area .banner-text .banner-title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .section-title-area .section-text {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .work-progres-area .single-work {
+    padding: 30px 20px;
+  }
+  .work-progres-area .single-work .work-title {
+    font-size: 18px;
+  }
+  .sigle-blog .blog-info .blog-title {
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 25px;
+  }
+  .section-title-area .section-title {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .subsribe-area .subsribe-wrap {
+    padding: 70px 50px;
+  }
+  .single-widget .widget-title {
+    font-size: 20px;
+  }
+  .single-widget .text-widget p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .single-widget .menu-widget li a {
+    font-size: 14px;
+  }
+  .single-widget .recent-post-widget li .single-post .post-title {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .single-widget .social-media-widget li {
+    margin-right: 5px;
+  }
+  .choose-area-two .choose-area-left h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .service-area-two .single-features:nth-child(2) {
+    margin-left: 0;
+  }
+  .work-progres-area.style-three .single-work {
+    padding: 30px 15px;
+  }
+  .service-four-area .single-service .service-title {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .job-opening-area .job-opening-form .check-box .remot {
+    font-size: 11px;
+    font-weight: 400;
+    position: relative;
+    top: -3px;
+  }
+  .career-details-page .our-vision-right .table td {
+    font-size: 14px;
+    line-height: 36px;
+  }
+}
+@media (max-width: 1199px) {
+  .choose-area .chose-list {
+    left: 50%;
+  }
+  .footer-area {
+    padding: 0;
+  }
+  .footer-area .footer-bottom .footer-bottom-wrap {
+    padding: 25px 0;
+  }
+  .contact-page .address-area {
+    padding: 0;
+  }
+  .contact-page .address-area::after {
+    display: none;
+  }
+  .job-opening-area .work-process-list .single-process::after {
+    display: none;
+  }
+  .career-details-page .educational-area ul li {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .career-details-page .requirement-skill ul li {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .career-details-page .our-vision-left ul li {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .career-details-page p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+}
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .blog-details-area .post-title {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .blog-details-area .blockquote {
+    padding: 30px 20px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .blog-details-area .post-content {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .blog-details-area .blog-details-bottom .details-bottom-titel {
+    margin-bottom: 20px;
+  }
+  .social-share .social-media li {
+    margin: 0;
+  }
+  .blog-details-area .blog-meta ul li {
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  .blog-details-area .blog-meta .comment-count {
+    font-size: 16px;
+  }
+  .case-studies-area .single-case-studie .case-image .overlay-content h3 {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 5px;
+  }
+  .case-studies-area .single-case-studie .case-image .overlay-content p {
+    font-size: 13px;
+    line-height: 23px;
+    margin-bottom: 10px;
+  }
+  .case-studies-area .single-case-studie .case-image .overlay-content {
+    padding: 20px;
+  }
+  .card-columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+  .card-columns.two-style {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+  .career-details-page .career-section-title {
+    font-size: 32px;
+  }
+}
+@media (max-width: 991px) {
+  .header-area .navbar-nav .nav-item.dropdown .dropdown-menu {
+    position: inherit;
+    display: none;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  .header-area .navbar-collapse {
+    overflow-y: scroll;
+    height: 330px;
+    z-index: 9999;
+  }
+  .sticky-bar.stick.header-area .navbar-nav .nav-item .nav-link {
+    color: #000000;
+  }
+  .header-area .navbar-collapse::-webkit-scrollbar {
+    display: none;
+  }
+  .header-area .header-right ul li:first-child {
+    margin-left: 0;
+  }
+  .dropdown-toggle::after {
+    border-top: 0.5em solid;
+    border-right: 0.5em solid transparent;
+    border-left: 0.5em solid transparent;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+  }
+  .service-area .single-service {
+    margin-bottom: 30px;
+  }
+  .choose-area .choose-left .choose-img.text-right {
+    text-align: center !important;
+  }
+  .choose-area .choose-right {
+    margin-bottom: 50px;
+  }
+  .testimonial-area .single-testimonial .testimonial-contnet {
+    margin-top: 30px;
+  }
+  .subsribe-area.section {
+    padding-top: 0;
+  }
+  .testimonial-left {
+    text-align: center;
+  }
+  .header-area.transparent-header {
+    background: #ffffff !important;
+  }
+  .header-area.transparent-header.header-two {
+    background: #464646 !important;
+  }
+  .header-two .navbar-light .navbar-toggler {
+    color: #ffffff;
+    border-color: #ffff;
+  }
+  .header-two.sticky-bar.stick.header-area .navbar-brand {
+    color: #ffffff;
+  }
+  .header-two.sticky-bar.stick.header-area .navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+  }
+  .header-area .navbar-nav .nav-item {
+    margin: 0;
+  }
+  .choose-area-left {
+    margin-bottom: 30px;
+  }
+  .work-progres-two .single-work {
+    margin-bottom: 30px;
+  }
+  .work-progres-two .work-list .line-shape {
+    display: none;
+  }
+  .testimonial-area .testimonial-left {
+    margin-top: 30px;
+  }
+  .brand-success-top .success-top-left {
+    margin-top: 30px;
+  }
+  .brand-success-area .brand-success-top {
+    margin-bottom: 30px;
+  }
+  .brand-success-area .success-bottom-right {
+    margin-top: 30px;
+  }
+  .coming-soon-page h2 {
+    font-size: 42px;
+  }
+  .coming-soon-page p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .contact-page .contact-form p br {
+    display: none;
+  }
+  .comment-area .comment-list .comment:nth-child(2) {
+    padding: 30px 15px;
+  }
+  .brand-success-area .brand-success-wrap::after {
+    display: none;
+  }
+  .hero-banner-area.hero-banner-three .banner-image-bottm {
+    display: none;
+  }
+  .hero-banner-area.hero-banner-three {
+    padding-top: 200px;
+    padding-bottom: 130px;
+    margin-bottom: 0;
+  }
+  .choose-img-two.text-right {
+    text-align: center !important;
+  }
+  .service-four-area .single-service {
+    margin-bottom: 30px;
+  }
+  .service-four-area.section {
+    padding-bottom: 110px;
+  }
+  .job-opening-area .job-opening-form .nice-select {
+    margin-bottom: 30px;
+  }
+  .work-process-list.d-flex.justify-content-between {
+    display: block !important;
+  }
+  .job-opening-area .work-process-list .single-process {
+    width: 50%;
+    float: left;
+  }
+  .mb-100 {
+    margin-bottom: 50px;
+  }
+  .header-area .navbar-nav .nav-item.dropdown .dropdown-menu li ul {
+    position: inherit;
+    visibility: visible;
+    display: none;
+    opacity: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #ffffff;
+  }
+  .header-area .navbar-nav .nav-item.dropdown .dropdown-menu li ul li {
+    padding-left: 15px;
+  }
+  .hero-banner-area.hero-banner-four .left-img {
+    margin-bottom: 30px;
+  }
+  .service-area-two .serice-left-img {
+    margin-bottom: 30px;
+  }
+  .banner-image {
+    text-align: center;
+  }
+  .serice-left-img {
+    text-align: center;
+  }
+  .service-area-two .features-list:before {
+    display: none;
+  }
+  .choose-area .choose-left {
+    margin-bottom: 50px;
+  }
+  .signin-form-area .left-shape {
+    position: inherit;
+    width: 100%;
+    height: auto;
+    order: 1;
+  }
+  .signin-form-area .right-shape {
+    position: inherit;
+    width: 100%;
+    height: auto;
+    order: 1;
+  }
+  .sticky-bar.stick.header-area .main-logo {
+    display: block ;
+  }
+  .sticky-bar.stick.header-area .sticky-logo {
+    display: none ;
+  }
+  
+}
+
+/*  Small mobile :320px. */
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .hero-banner-area .banner-text .banner-title {
+    font-size: 46px;
+    line-height: 52px;
+  }
+  .hero-banner-area .banner-text {
+    text-align: center;
+  }
+  .service-area .single-service {
+    padding: 50px 25px 45px 25px;
+  }
+  .subsribe-area .subsribe-wrap {
+    padding: 30px 20px;
+  }
+  .subsribe-area .subsribe-wrap h2 {
+    margin-bottom: 30px;
+  }
+  .footer-area .footer-top {
+    padding-bottom: 10px;
+  }
+  .subsribe-area .subsribe-wrap h2 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .subsribe-area .subsribe-wrap .form-group .form-control {
+    height: 70px;
+    padding: 25px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .subsribe-area-two .form-group .form-control {
+    height: 70px;
+    padding: 25px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .subsribe-area .subsribe-wrap .form-group .subsribe-btn {
+    height: 70px;
+    width: 150px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .subsribe-area-two .form-group .subsribe-btn {
+    height: 70px;
+    width: 150px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .copyright-area {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .footer-bottom-right.text-right {
+    text-align: center !important;
+  }
+  .choose-area .chose-list {
+    left: 20%;
+  }
+  br {
+    display: none;
+  }
+  .choose-area .choose-left .choose-img::after {
+    display: none;
+  }
+  .section {
+    padding: 60px 0;
+  }
+  .service-four-area.section {
+    padding-bottom: 30px;
+  }
+  .section-top {
+    padding: 60px 0 0 0;
+  }
+  .section-bottom {
+    padding: 0 0 60px 0;
+  }
+  .case-studies-area .owl-dots {
+    margin-top: 10px;
+  }
+  .hero-banner-area {
+    padding-bottom: 80px;
+  }
+  .service-area-two .single-features:nth-child(2) {
+    margin-left: 0;
+  }
+  .service-area-two .single-features {
+    padding: 25px;
+  }
+  .icon.mr-5 {
+    margin-right: 1.5rem !important;
+  }
+  .subsribe-area-two h2 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .team-area .single-team .social-media li a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+  .social-media li {
+    margin: 0 3px;
+  }
+  .portfolio-area .single-portfolio .portfolio-info h3 {
+    font-size: 16px;
+  }
+  .portfolio-area .single-portfolio .portfolio-info span {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .portfolio-area .filter-menu .filter.mixitup-control-active {
+    margin: 5px;
+  }
+  .coming-soon-page
+    #countdown-timer
+    .syotimer__body
+    .syotimer-cell
+    .syotimer-cell__value {
+    font-size: 42px;
+    margin-bottom: 15px;
+  }
+  .coming-soon-page #countdown-timer .syotimer__body .syotimer-cell::before {
+    left: -3px;
+    top: -3px;
+    font-size: 42px;
+  }
+  .coming-soon-page
+    #countdown-timer
+    .syotimer__body
+    .syotimer-cell
+    .syotimer-cell__unit {
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+  }
+  .contact-page .contact-form {
+    margin-top: 30px;
+  }
+  .sidebar {
+    margin-top: 50px;
+  }
+  .pagination-area {
+    margin-top: 30px;
+  }
+  .blog-details-area .blog-details-bottom .details-bottom-titel {
+    margin-bottom: 15px;
+  }
+  .blog-details-area .blockquote {
+    padding: 40px 25px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .choose-area.style-two .chose-list {
+    left: 50%;
+  }
+  .choose-area.style-two .chose-list .single-chose {
+    margin-bottom: 30px;
+  }
+  .hero-banner-area.hero-banner-three {
+    background-size: cover;
+  }
+  .hero-banner-area {
+    padding: 170px 0 100px 0;
+  }
+  .hero-banner-area.hero-banner-three {
+    padding-top: 170px;
+    padding-bottom: 100px;
+  }
+  .hero-banner-area.hero-banner-four {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  .card-columns {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+  .card-columns.two-style {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+  .hero-banner-area.hero-banner-three .banner-text .banner-content {
+    font-size: 15px;
+    line-height: 26px;
+  }
+  .job-opening-area .work-process-list .single-process {
+    width: 100%;
+    float: none;
+  }
+  .career-details-page .career-section-title {
+    font-size: 32px;
+  }
+  .career-details-page p {
+    font-size: 15px;
+  }
+  .work-progres-area.section-bottom {
+    padding-bottom: 30px;
+  }
+  .blog-area {
+    padding-bottom: 30px;
+  }
+  .work-progres-area {
+    padding-bottom: 30px;
+  }
+  .choose-img-two.text-right {
+    margin-bottom: 30px;
+  }
+  .terms-area .terms-wrap {
+    padding: 50px 25px 30px 25px;
+  }
+  .terms-area .terms-wrap .terms-title {
+    font-size: 30px;
+  }
+  .terms-area .terms-wrap .terms-list li {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .signin-form-area .wrap-two {
+    padding: 40px 20px;
+  }
+  .signin-form-area .signin-top .signin-title {
+    font-size: 24px;
+  }
+  .signin-form-area .signin-top .sign-btn {
+    font-size: 14px;
+  }
+}
+
+/*  Small mobile :320px. */
+
+@media (max-width: 480px) {
+  .hero-banner-area .banner-text .banner-title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .choose-area .choose-left {
+    margin-bottom: 0;
+  }
+  .hero-banner-area .banner-text .banner-content {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .section-title-area .section-sub-title {
+    font-size: 20px;
+  }
+  .section-title-area .section-title {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .section-title-two .sub-title {
+    font-size: 20px;
+  }
+  .section-title-two .title {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .section-title-area .section-text {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .subsribe-area .subsribe-wrap .form-group .subsribe-btn {
+    position: inherit;
+    width: 200px;
+    margin-top: 15px;
+  }
+  .subsribe-area-two .form-group .subsribe-btn {
+    position: inherit;
+    width: 200px;
+    margin-top: 15px;
+  }
+  .choose-area .choose-right .featurs-list {
+    padding-left: 20px;
+  }
+  .choose-area .choose-right .featurs-list .single-feature h3 {
+    font-size: 16px;
+  }
+  .choose-area .choose-right .featurs-list .single-feature p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .choose-area .chose-list .single-chose {
+    margin-bottom: 15px;
+  }
+  .choose-area .choose-right {
+    margin-top: 50px;
+  }
+  .pricing-area .single-pricing {
+    margin-top: 30px;
+  }
+  .blog-area.section {
+    padding-bottom: 30px;
+  }
+  .service-area-two .single-features .icon {
+    width: 80px;
+    height: 80px;
+  }
+  .breadcrumb-area .page-title {
+    margin-bottom: 16px;
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .breadcrumb-area {
+    padding: 150px 0 72px 0;
+  }
+  .brand-success-area .brand-success-bottom .sigle-feature:nth-child(2) {
+    margin-left: 0;
+  }
+  .brand-success-area .brand-success-bottom .sigle-feature {
+    width: 100%;
+  }
+  .error-page h1 {
+    font-size: 150px;
+  }
+  .error-page h2 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .error-page img {
+    display: none;
+  }
+  .coming-soon-page .coming-soon-bottom .form-group .subsribe-btn {
+    position: inherit;
+    margin-top: 15px;
+  }
+  .coming-soon-page .coming-soon-bottom .form-group {
+    text-align: center;
+  }
+  .coming-soon-page p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .google-map-area #gmap {
+    height: 400px;
+  }
+  .blog-details-bottom.d-flex {
+    display: block !important;
+  }
+  .blog-details-area .blog-meta .comment-count {
+    float: left;
+  }
+  .blog-details-area .post-title {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .blog-details-area .blog-meta .comment-count.floatright {
+    float: left !important;
+  }
+  .blog-details-area .blog-meta ul li {
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  .blog-details-area .blog-meta .comment-count {
+    font-size: 16px;
+  }
+  .blog-detail-page.section {
+    padding-bottom: 0;
+  }
+  .career-details-page .career-section-title {
+    font-size: 22px;
+  }
+  .apply-form .form-group .icon {
+    left: 20px;
+    top: 22px;
+  }
+  .apply-form .form-group input {
+    padding-left: 55px;
+  }
+  .apply-form .form-group textarea {
+    padding-left: 55px;
+  }
+  .apply-form-area h2 {
+    font-size: 22px;
+  }
+  .contact-page .single-address h3 {
+    font-size: 22px;
+  }
+  .comment-area .comment-title {
+    font-size: 30px;
+  }
+  .signin-form-area .signin-bottom .sign-with-title:before {
+    width: 25%;
+  }
+  .signin-form-area .signin-bottom .sign-with-title:after {
+    width: 25%;
+  }
+  .signin-form-area .signin-form .form-group .icon {
+    width: 50px;
+  }
+  .signin-form-area .signin-form .form-group input {
+	padding: 10px;
+	padding-left: 60px;
+	font-size: 13px;
+  }
+}
+
+@media (max-width: 375px) {
+  .choose-area .chose-list {
+    left: 6%;
+  }
+  .hero-banner-area .banner-text .banner-title {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .subsribe-area .subsribe-wrap h2 {
+    font-size: 26px;
+  }
+  .pricing-area .tab-menu .nav-tabs .nav-link {
+    font-size: 15px;
+    padding: 13px 30px;
+  }
+  .choose-area-two .choose-area-left h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .choose-area-two .single-choose:first-child {
+    margin-bottom: 0;
+  }
+  .choose-area-two .single-choose {
+    margin: 0 auto;
+  }
+  .choose-area-two .single-choose:nth-child(2) {
+    position: inherit;
+    margin: 30px auto;
+  }
+  .choose-area-two .choose-area-right {
+    background: transparent;
+  }
+  .service-area-two .single-features .media {
+    display: block;
+    text-align: center;
+  }
+  .icon.mr-5 {
+    margin-right: 0 !important;
+  }
+  .service-area-two .single-features .media .icon {
+    margin: 0 auto !important;
+  }
+  .float-right.learn-more-btn {
+    float: none !important;
+  }
+  .service-area-two .single-features .features-title.mt-0 {
+    margin-top: 15px !important;
+  }
+  .service-area-two .single-features {
+    padding: 30px 15px;
+  }
+  .subsribe-area-two h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .brand-success-area .brand-success-bottom .sigle-feature {
+    padding: 30px 15px;
+  }
+  .error-page h1 {
+    font-size: 100px;
+  }
+  .error-page h2 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .coming-soon-page .coming-soon-bottom .form-group .subsribe-btn {
+    width: 100%;
+  }
+  .coming-soon-page h2 {
+    font-size: 26px;
+  }
+  .contact-page .contact-form h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+  .contact-page .contact-form p {
+    margin-bottom: 40px;
+  }
+  .subsribe-area-two .form-group .subsribe-btn {
+    width: 100%;
+  }
+  .subsribe-area-two .form-group .subsribe-btn {
+    width: 100%;
+  }
+  .subsribe-area .subsribe-wrap .form-group .subsribe-btn {
+    width: 100%;
+  }
+  #prumaryaccordion .card .card-header button {
+    font-size: 16px;
+  }
+  #prumaryaccordion .card .card-body p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .choose-area.style-two .chose-list {
+    left: 30%;
+  }
+
+  .choose-area.style-two .chose-list .single-chose {
+    margin-bottom: 15px;
+  }
+  .pricing-area-two .tab-menu .nav-tabs .nav-link {
+    font-size: 15px;
+    padding: 13px 30px;
+  }
+  .choose-area .choose-right .featurs-list {
+    padding-left: 10px;
+  }
+  .case-studies-area .single-case-studie .case-image .overlay-content p {
+    display: none;
+  }
+  .case-studies-area .single-case-studie .case-image .overlay-content h3 {
+    margin-bottom: 15px;
+  }
+  .case-studies-area .single-case-studie .case-image .overlay-content {
+    padding: 15px;
+  }
+  .career-details-page .our-vision-right .table td {
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0;
+  }
+  .career-details-page .our-vision-right {
+    padding: 20px;
+  }
+  .apply-form .form-check label {
+    margin-left: 0px;
+    font-size: 12px;
+    line-height: 22px;
+    top: -2px;
+    position: relative;
+  }
+}
+
+@media (max-width: 320px) {
+  .sigle-blog .blog-info .blog-title {
+    font-size: 17px;
+    line-height: 28px;
+  }
+  .sigle-blog .blog-info .learn-more-btn {
+    font-size: 17px;
+  }
+  .subsribe-area .subsribe-wrap {
+    padding: 30px 15px;
+  }
+  .subsribe-area .subsribe-wrap h2 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .header-area .header-right ul li a {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .header-area .header-right .header-btn {
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .hero-banner-area .banner-text .video-btn {
+    margin-top: 15px;
+  }
+
+  .choose-area-two .choose-area-left h2 {
+    font-size: 24px;
+  }
+  .coming-soon-page
+    #countdown-timer
+    .syotimer__body
+    .syotimer-cell
+    .syotimer-cell__value {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  .coming-soon-page
+    #countdown-timer
+    .syotimer__body
+    .syotimer-cell
+    .syotimer-cell__unit {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .blog-details-area .post-title {
+    font-size: 24px;
+  }
+  .case-studies-area .single-case-studie .case-image .overlay-content h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .case-studies-area .single-case-studie .case-image .overlay-content p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

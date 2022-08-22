@@ -1,0 +1,279 @@
+:root {
+	font-size: $bfSize;
+}
+
+html,
+body {
+	height: 100%;
+	font-family: $bodyFont;
+	font-weight: $fontWeight;
+	line-height: $blineHeight;
+	color: $bColor;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: $bodyFont;
+	font-weight: 700;
+}
+
+iframe {
+	border: none;
+}
+
+a,
+b,
+div,
+ul,
+li {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-tap-highlight-color: transparent;
+	-moz-outline-: none;
+}
+
+input,
+input:hover,
+input:focus,
+input:active,
+textarea,
+textarea:hover,
+textarea:focus,
+textarea:active,
+select:focus,
+select:hover {
+    -moz-outline: none;
+    outline: none;
+    box-shadow: none;
+}
+
+img:not([draggable]),
+embed,
+object,
+video {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	text-decoration: none;
+	outline: 0;
+}
+
+a:active,
+a:focus,
+a:hover,
+a:visited {
+	text-decoration: none;
+	outline: 0;	
+}
+
+:focus {
+    outline: none ;
+}
+
+img {
+	border: none;
+	max-width: 100%;
+}
+
+button:focus {
+    -moz-outline: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.section{
+	padding: 140px 0
+}
+.section-top{
+	padding: 140px 0 0
+}
+.section-bottom{
+	padding: 0 0 140px 0
+}
+.btn.focus, .btn:focus{
+	border: 1px solid transparent;
+}
+
+.form-control:focus,
+.btn.focus, .btn:focus {
+    color: #495057;
+    background-color: #fff;
+    outline: 0;
+    box-shadow: none;
+}
+
+.acurate{
+	margin: 0;
+	padding: 0;
+}
+
+.floatleft {
+    float:left;
+}
+
+.floatright {
+    float:right;
+}
+
+.alignleft {
+    float:left;
+    margin-right:15px;
+    margin-bottom: 26px;
+}
+
+.alignright {
+    float:right;
+    margin-left:15px;
+    margin-bottom: 26px;
+}
+
+.aligncenter {
+    display:block;
+    margin:0 auto 26px;
+}
+
+a:focus {
+    outline:0px solid;
+}
+
+.fix {
+    overflow:hidden;
+}
+
+p {
+    margin:0 0 26px;
+}
+
+a {
+     text-decoration:none;
+}
+
+a:hover {
+  color: $primary-color;
+  text-decoration: none;
+}
+
+a:active, a:hover {
+  outline: 0 none;
+  color: $hover-color;
+}
+
+ul{
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.clear{
+    clear:both;
+}
+
+::-moz-selection {
+    background: $primary-color;
+    text-shadow: none;
+    color: #ffffff;
+}
+
+::selection {
+    background: $primary-color;
+    text-shadow: none;
+    color: #ffffff;
+}
+
+.browserupgrade {
+    margin: 26px  0;
+    background: $primary-color;
+    color: #ffffff;
+    padding: 26px 0;
+}
+
+.p-0 {
+    padding: 0!important;
+}
+
+.pb-0 {
+    padding-bottom: 0!important;
+}
+
+.pt-0 {
+    padding-top: 0!important;
+}
+
+.m-0 {
+    margin: 0!important;
+}
+
+.mb-0 {
+    margin-bottom: 0!important;
+}
+
+.mt-0 {
+    margin-top: 0!important;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.d-flex {
+    display: -ms-flexbox!important;
+    display: -webkit-box!important;
+    display: flex!important;
+}
+
+.justify-content-between {
+    -ms-flex-pack: justify!important;
+    -webkit-box-pack: justify!important;
+            justify-content: space-between!important;
+}
+
+.justify-content-center {
+    -ms-flex-pack:center!important;
+    -webkit-box-pack:center!important;
+            justify-content:center!important;
+}
+
+.align-items-center {
+    -ms-flex-align: center!important;
+    -webkit-box-align: center!important;
+            align-items: center!important;
+}
+
+.align-self-center {
+    -ms-flex-item-align: center!important;
+    -ms-grid-row-align: center!important;
+        align-self: center!important;
+}
+
+.justify-content-around {
+    -ms-flex-pack: distribute!important;
+    justify-content: space-around!important;
+}
+
+.justify-content-end {
+    -ms-flex-pack: end!important;
+    -webkit-box-pack: end!important;
+            justify-content: flex-end!important;
+}
+
+.align-items-end {
+    -ms-flex-align: end!important;
+    -webkit-box-align: end!important;
+            align-items: flex-end!important;
+}
+.dropdown-menu {
+    padding: 0;
+}
+.mb-100 {
+    margin-bottom: 100px;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
